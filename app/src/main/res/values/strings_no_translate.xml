@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">@string/app_name_prod</string>
+    <string name="channel" />
+    <string name="hockeyapp_app_id">eb167874c1d6569430a9bcfd71d4c24d</string>
+    <string name="mapbox_public_token">pk.eyJ1IjoiZG1pdHJ5YnJhbnQiLCJhIjoiY2lnd3FzdTI1MHNicHZrbTVhMno4anF4dCJ9.HG3mJUj8xbqOvk_ieFDCfA</string>
+
+    <!-- URLs -->
+    <string name="zero_webpage_url">https://m.wikimediafoundation.org/wiki/Wikipedia_Zero_App_FAQ</string>
+    <string name="donate_url">https://donate.wikimedia.org/?utm_medium=WikipediaApp&amp;utm_campaign=Android&amp;utm_source=%1$s&amp;uselang=%2$s</string>
+
+    <!-- Accounts -->
+    <string name="account_name">@string/wikimedia</string>
+    <string name="account_type">org.wikimedia</string>
+
+    <!-- Provenance parameters for sharing URLs (https://wikitech.wikimedia.org/wiki/Provenance) -->
+    <string name="prov_share_image">sfia1</string>
+    <string name="prov_share_text">sfta1</string>
+    <string name="prov_share_link">sfla1</string>
+
+    <!-- Search -->
+    <string name="intent_share_search_label">@string/search_hint</string>
+
+    <!-- Long press menu -->
+    <string name="menu_long_press_share_page">@string/menu_page_share</string>
+    <string name="menu_long_press_add_to_list">@string/menu_page_add_to_list</string>
+
+    <!-- Link preview menu -->
+    <string name="menu_link_preview_copy_link">@string/menu_long_press_copy_page</string>
+    <string name="menu_link_preview_share_page">@string/menu_page_share</string>
+    <string name="menu_link_preview_add_to_list">@string/menu_page_add_to_list</string>
+
+    <!-- Crash reporter -->
+    <!-- Do not change these names. These values override those in the HockeyApp SDK which has no
+         localization. -->
+    <string name="hockeyapp_crash_dialog_title" tools:ignore="UnusedResources">@string/crash_report_dialog_title</string>
+    <string name="hockeyapp_crash_dialog_message" tools:ignore="UnusedResources">@string/crash_report_dialog_text</string>
+    <string name="hockeyapp_crash_dialog_negative_button" tools:ignore="UnusedResources">@string/crash_report_dialog_dont_send_button</string>
+    <string name="hockeyapp_crash_dialog_neutral_button" tools:ignore="UnusedResources">@string/crash_report_dialog_always_send_button</string>
+    <string name="hockeyapp_crash_dialog_positive_button" tools:ignore="UnusedResources">@string/crash_report_dialog_send_button</string>
+    <!-- /Crash reporter -->
+
+    <!-- The Feed -->
+    <!-- TODO: [Feed] move translatable strings to strings.xml. -->
+    <string name="feed">Explore Wikipedia</string>
+    <string name="activity_feed_title">@string/feed</string>
+    <string name="nav_item_feed">@string/feed</string>
+    <string name="view_card_footer_button">See more</string>
+    <string name="most_read_list_card_title">Trending</string>
+    <string name="most_read_list_card_footer">MORE LIKE THIS</string>
+    <string name="view_static_card_icon_content_description">Card icon</string>
+
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="one">1 day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <!-- /The Feed -->
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>
